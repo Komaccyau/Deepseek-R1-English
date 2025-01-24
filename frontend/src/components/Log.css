@@ -1,0 +1,58 @@
+/*Log.css*/
+
+
+.chat_log {
+    margin-bottom: 16px;
+}
+
+.input_log {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40vh;
+    margin-left: 40vh;
+    margin-top: 10px;
+    padding: 7px;
+    min-width: 120px;
+    max-width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #b7b0f5;
+    text-align: right;
+}
+
+.input_log:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid #e0edff;
+  }
+
+.bot_log {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 40vh;
+    margin-left: 40vh;
+    margin-top: 10px;
+    padding: 7px;
+    min-width: 120px;
+    max-width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    /* background-color: #c4ffc9; */
+    text-align: left;
+}
+
+.bot_log:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid #e0edff;
+  }
